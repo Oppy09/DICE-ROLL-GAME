@@ -17,10 +17,10 @@ document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 console.log(randomImageSource);
 console.log(randomImageSource2);
 
-if (randomImageSource > randomImageSource2) {
+if (randomNumber1 > randomNumber2) {
     document.querySelector("h1").innerHTML = "🚩Player 1 wins!";
 }
-else if (randomImageSource2 > randomImageSource) {
+else if (randomNumber2 > randomNumber1) {
     document.querySelector("h1").innerHTML = "Player 2 wins! 🚩";
 }
 else {
